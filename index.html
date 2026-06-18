@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download iArtifact — Ground Zero Studios</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Georgia', serif;
+    background: #f4efe4;
+    color: #1a1a18;
+    min-height: 100vh;
+    padding: 48px 24px;
+    line-height: 1.6;
+  }
+  .page { max-width: 640px; margin: 0 auto; }
+  header { margin-bottom: 48px; }
+  header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 6px; }
+  header p { font-size: 14px; color: #555548; }
+  .version-badge {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 11px;
+    background: #e8e3d8;
+    border: 1px solid #c8c3b8;
+    border-radius: 3px;
+    padding: 2px 8px;
+    margin-left: 8px;
+    color: #555548;
+    vertical-align: middle;
+  }
+  .download-card {
+    border: 1px solid #c8c3b8;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 16px;
+    background: #faf7f0;
+  }
+  .download-card h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .download-card .meta {
+    font-size: 12px;
+    color: #888878;
+    margin-bottom: 16px;
+  }
+  .btn-download {
+    display: inline-block;
+    background: #1a1a18;
+    color: #f4efe4;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-bottom: 14px;
+    transition: background 0.15s;
+  }
+  .btn-download:hover { background: #333330; }
+  .btn-download.secondary {
+    background: transparent;
+    color: #1a1a18;
+    border: 1px solid #c8c3b8;
+    margin-left: 10px;
+  }
+  .btn-download.secondary:hover { background: #e8e3d8; }
+  .checksum-block {
+    font-family: monospace;
+    font-size: 11px;
+    background: #edeadf;
+    border: 1px solid #c8c3b8;
+    border-radius: 3px;
+    padding: 10px 12px;
+    margin-top: 12px;
+    word-break: break-all;
+    color: #555548;
+  }
+  .checksum-block .label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888878;
+    margin-bottom: 4px;
+  }
+  .smartscreen-note {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: #fff8e8;
+    border: 1px solid #d8c888;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #555548;
+    line-height: 1.7;
+  }
+  .smartscreen-note strong { color: #1a1a18; }
+  .signing-note {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #888878;
+    line-height: 1.6;
+  }
+  .coming-soon {
+    opacity: 0.6;
+    font-style: italic;
+  }
+  .section-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #888878;
+    margin-bottom: 12px;
+    margin-top: 36px;
+  }
+  hr { border: none; border-top: 1px solid #c8c3b8; margin: 36px 0; }
+  footer { font-size: 11px; color: #888878; margin-top: 48px; line-height: 1.8; }
+  footer a { color: #555548; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>iArtifact <span class="version-badge">v2.0.0 — Founder's Edition</span></h1>
+    <p>Permanent authorship records for creators. Seal your work. Prove it's yours.</p>
+  </header>
+
+  <div class="section-label">Windows</div>
+
+  <div class="download-card">
+    <h2>Windows Installer <span style="font-size:12px;font-weight:400;color:#888878">64-bit · Windows 10+</span></h2>
+    <div class="meta">iArtifact_2.0.0_x64-setup.exe · ~8 MB · Requires internet for WebView2 setup (first install only)</div>
+
+    <a class="btn-download"
+       href="https://github.com/terrywhitakergithub/iartifact/releases/download/v2.0.0/iArtifact_2.0.0_x64-setup.exe"
+       download>Download for Windows</a>
+
+    <a class="btn-download secondary"
+       href="https://github.com/terrywhitakergithub/iartifact/releases/download/v2.0.0/iArtifact_2.0.0_x64_en-US.msi"
+       download>MSI (advanced)</a>
+
+    <div class="checksum-block">
+      <div class="label">SHA-384 Checksum — iArtifact_2.0.0_x64-setup.exe</div>
+      <div id="sha384-nsis">AC81157B9205234984C60128D8DC8A54D4D9ACA6DEEB9514CCDF341CB3C199804E3E888D887F89F3165FB45C0C885ACD</div>
+    </div>
+    <div class="checksum-block" style="margin-top:6px">
+      <div class="label">SHA-384 Checksum — iArtifact_2.0.0_x64_en-US.msi</div>
+      <div id="sha384-msi">2FCFD525F74B773587BC887E40210895428D52CA913D5DFC370CA48FE4AD15942B55F7025154FEDFB20A367CD98AC62D</div>
+    </div>
+
+    <div class="smartscreen-note">
+      <strong>Windows SmartScreen warning?</strong> This is expected on Founder's Edition.<br>
+      iArtifact v2.0.0 ships with a <strong>self-signed certificate</strong> while we process commercial code-signing (arriving in v2.0.1).<br>
+      To install: click <strong>More info</strong> in the SmartScreen dialog, then click <strong>Run anyway</strong>.<br>
+      You can verify the file integrity using the SHA-384 checksum above.
+    </div>
+    <div class="signing-note">
+      Cert subject: <code>CN=Ground Zero Studios, O=Ground Zero Studios, L=Hamilton, S=Ohio, C=US</code><br>
+      Valid 2026-06-18 → 2029-06-18 · Thumbprint: <code>7F8902094F5A284226809983A6032EB834360D1E</code>
+    </div>
+  </div>
+
+  <div class="section-label">Android</div>
+
+  <div class="download-card coming-soon">
+    <h2>Android <span style="font-size:12px;font-weight:400;color:#888878">v1.1 — coming in 2–3 weeks</span></h2>
+    <div class="meta">Android 8.0+ (API 26+) · Sideload APK</div>
+    <p style="font-size:13px;color:#888878">
+      The Android build requires a full mobile layout pass before it's ready for Founder's Edition buyers.
+      We're shipping it right rather than shipping it broken. Sign up to be notified when it drops.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="section-label">Verify your download</div>
+  <p style="font-size:13px;color:#555548;margin-bottom:12px">
+    Run this in PowerShell to verify the NSIS installer against the SHA-384 above:
+  </p>
+  <div class="checksum-block">
+    <div class="label">PowerShell</div>
+    (Get-FileHash "iArtifact_2.0.0_x64-setup.exe" -Algorithm SHA384).Hash
+  </div>
+
+  <div class="section-label" style="margin-top:36px">System requirements</div>
+  <ul style="font-size:13px;color:#555548;padding-left:20px;line-height:2">
+    <li>Windows 10 or later (64-bit)</li>
+    <li>WebView2 runtime — downloaded automatically on first install</li>
+    <li>~50 MB disk space</li>
+    <li>Internet connection for iA-ID registry registration (optional)</li>
+  </ul>
+
+  <hr>
+
+  <footer>
+    iArtifact is built by <a href="https://github.com/terrywhitakergithub">Ground Zero Studios</a>.
+    Questions: <a href="mailto:thareapa85@gmail.com">thareapa85@gmail.com</a><br>
+    <a href="https://github.com/terrywhitakergithub/iartifact/releases">All releases on GitHub</a> ·
+    <a href="https://terrywhitakergithub.github.io/iartifact-verify/">iA-ID Verifier</a>
+  </footer>
+
+</div>
+</body>
+</html>
